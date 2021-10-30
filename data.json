@@ -1,0 +1,42 @@
+[
+  {
+  "info": 24,
+  "color": "blue"
+  },
+   {
+  "info": 24,
+  "color": "#a4d2f5"
+  }, 
+  {
+  "info": 54,
+  "color": "#60d6bf"
+  },
+   {
+  "info": 90,
+  "color": "#730021"
+  },
+   {
+  "info": 54,
+  "color": "yellow"
+  },
+   {
+  "info": 24,
+  "color": "orange"
+  },
+   {
+  "info": 9,
+  "color": "purple"
+  },
+   {
+  "info": 24,
+  "color": "green"
+  },
+   {
+  "info": 9,
+  "color": "yellow"
+  },
+   {
+  "info": 48,
+  "color": "red"
+  }
+]
