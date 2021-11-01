@@ -11,15 +11,15 @@ function loadJSON() {
   // 2: a function to run a give the json data jquery loaded
   $.getJSON("data.json",
     function (dataReturn) {
-      
-      marsBar(dataReturn);
+      console.log('hello');
+      infoBar(dataReturn);
     }
     
       );
 }
 
 //rendr bar chart into Canvas
-function marsBar(data) {
+function infoBar(data) {
   console.log(data);
 
   //get ref to html id canvas element
@@ -37,7 +37,7 @@ function marsBar(data) {
   let i, height, lastX = 0;
 
   //loop through and draw some axis scale lines
-  for (i = 0; i <= maxVal; i = i = maxVal / 10) {
+  for (i = 0; i <= maxVal; i = i + maxVal / 10) {
     context1.beginPath();
     context1.moveTo(0, i * scaleY);
     context1.lineTo(startX, i * scaleY);
